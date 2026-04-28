@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1a1a1d;
+    color: #eeeeee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#gameCanvas {
+    background: #0f0f12;
+    border: 4px solid #333;
+    cursor: crosshair;
+}
+
+#ui {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    pointer-events: none;
+    user-select: none;
+}
+
+#score { font-size: 2rem; font-weight: bold; letter-spacing: 2px; }
+#hint { opacity: 0.5; margin-top: 5px; }
